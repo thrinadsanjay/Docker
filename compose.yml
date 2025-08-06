@@ -20,7 +20,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      -openwebui:/app/backend/data
+      - openwebui:/app/backend/data
     restart: unless-stopped
 
 volumes:
